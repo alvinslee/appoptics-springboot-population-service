@@ -1,0 +1,13 @@
+logging:
+  level:
+    com.github.alvinslee: DEBUG
+server:
+  port: 8585
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+  h2:
+    console:
+      enabled: true
