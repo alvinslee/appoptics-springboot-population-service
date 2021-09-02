@@ -1,1 +1,0 @@
-web: java $JAVA_OPTS -javaagent:appoptics-agent/appoptics-agent.jar -jar webapp-runner.jar ${WEBAPP_RUNNER_OPTS} --port $PORT ./out/artifacts/code_profiling_demo_app/code-profiling-demo-app.war
